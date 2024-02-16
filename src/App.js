@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TannTrim from './components/topheadContent';
+import TopheadOptions from './components/topheadOptions';
+import AllFrameOptions from './components/allframesoptions';
+import AllBags from './components/AllBags1'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <TannTrim />
+    <TopheadOptions/>
+    <AllFrameOptions />
+    <AllBags />
+    </>
+    
   );
 }
 
