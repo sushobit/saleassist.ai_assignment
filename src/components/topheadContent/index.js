@@ -10,8 +10,8 @@ const TannTrim = () => {
         <img className='tamtim' src={tannTrimImage} alt="TANN TRIM" />
         </div>
         
-        <div className='group-icon'>
-        <img src={groupIconImage} alt="groupicon" />
+        <div>
+        <img className='group-icon' src={groupIconImage} alt="groupicon" />
         </div>
     </div>
   );

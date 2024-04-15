@@ -20,11 +20,13 @@
   letter-spacing: 0.55em;
   text-align: left;
   padding: 1em; 
+  height: max-content;
+  width: max-content;
 }
 
 .group-icon {
-  width: 15%;
-  height: 24px;
+  height: max-content;
+  width: max-content;
   top: 30px;
   left: 87%; 
   position: absolute;
@@ -45,19 +47,21 @@
   }
 
   .group-icon {
-      width: 30%;
+      width: 10%;
       left: 60%;
+      display: none;
   }
 }
 
 @media screen and (max-width: 480px) {
   .tann-trim-container {
       width: 60%;
-      padding: 1em;
+      padding: 1rem;
   }
 
   .group-icon {
       width: 50%;
       left: 50%;
+      display: none;
   }
 }

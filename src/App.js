@@ -5,6 +5,7 @@ import TopheadOptions from './components/topheadOptions';
 import AllFrameOptions from './components/allframesoptions';
 import AllBags from './components/AllBags1'
 
+
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
     <TopheadOptions/>
     <AllFrameOptions />
     <AllBags />
+   
     </>
     
   );

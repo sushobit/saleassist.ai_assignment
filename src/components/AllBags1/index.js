@@ -1,3 +1,4 @@
+import ReviewPage from '../ReviewPage';
 import allbags1 from './Frame4775.png'
 import allbags2 from './Frame4785.png'
 import './index.css'
@@ -9,6 +10,7 @@ const AllBags = () => {
         <img className='allbagoption' src={allbags1} alt="AllFRAME" />
         <img className='allbagoption' src={allbags2} alt="AllFRAME" />
         </div>
+        <ReviewPage />
         
     </div>
   );
